@@ -11,6 +11,7 @@
 <% Persona p = (Persona)session.getAttribute("infoPersona"); %>
 	<h1> Bienvenido <%=p.getUsuario() %></h1><br/>
 	<h1> Email: <%=p.getEmail() %></h1><br/>
+	Email(EL): ${sessionScope.infoPersona.email}
 	<h1> Edad: <%=p.getEdad() %></h1><br/>
 	<h1> Preferencia: <%=p.getPreferencia() %></h1><br/>
 	<h1>Fin jsp</h1>
