@@ -12,7 +12,7 @@ import fabricas.FactoryDao;
 import model.Contacto;
 
 /**
- * Servlet implementation class EliminarAction
+ * Servlet implementation class EliminarAction.  Los controladores de accion forman parte del Controlador (Patrón MVC)
  */
 @WebServlet("/EliminarAction")
 public class EliminarAction extends HttpServlet {

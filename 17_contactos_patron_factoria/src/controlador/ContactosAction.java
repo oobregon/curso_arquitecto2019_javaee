@@ -13,6 +13,8 @@ import daos.DaoContactos;
 import fabricas.FactoryDao;
 import model.Contacto;
 
+
+// Los controladores de accion forman parte del Controlador (Patrón MVC)
 @WebServlet("/ContactosAction")
 public class ContactosAction extends HttpServlet {
 	private static final long serialVersionUID = 1L;

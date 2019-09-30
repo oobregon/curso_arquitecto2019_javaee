@@ -12,7 +12,7 @@ import fabricas.FactoryDao;
 import model.Contacto;
 
 /**
- * Servlet implementation class Alta
+ * Servlet implementation class Alta. Los controladores de accion forman parte del Controlador (Patrón MVC)
  */
 @WebServlet("/AltaAction")
 
