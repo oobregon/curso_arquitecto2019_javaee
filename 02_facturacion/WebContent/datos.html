@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Datos pedidos</title>
+</head>
+<body>
+	<center>
+		<form action="factura" method="post">
+			Producto: <input type="text" name="producto"/><br/>
+			Unidades: <input type="number" name="unidades"/><br/>
+			Precio unitario: <input type="number" name="precio"/><br/>
+			Iva:<br/>
+				4%<input type="radio" name="iva" value="4"/><br/>		
+				10%<input type="radio" name="iva" value="10" selected/><br/>
+				21%<input type="radio" name="iva" value="21"/><br/>
+			<input type="submit" value="Calcular"/><br/>
+		</form>
+	</center>
+</body>
+</html>
