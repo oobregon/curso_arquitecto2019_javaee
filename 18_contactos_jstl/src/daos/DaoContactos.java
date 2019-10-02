@@ -15,5 +15,4 @@ public interface DaoContactos {
 	void altaContactoParametrizado(Contacto contacto);
 
 	List<Contacto> dameContactos();
-
 }
