@@ -21,8 +21,7 @@ public class ContactosAction extends HttpServlet {
 		List<Contacto> agenda = dao.dameContactos();
 		if(agenda.size() > 0) {
 			request.setAttribute("resultado","ok");			
-			request.setAttribute("agenda",agenda);
-			
+			request.setAttribute("agenda",agenda);			
 		} else {
 			request.setAttribute("resultado","ko");
 		}		
